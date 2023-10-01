@@ -1,0 +1,81 @@
+body{
+    background: black;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+div.post{
+    background: white;
+    margin-top: 40px;
+}
+div.post img{
+    width: 100%;
+}
+div.post {
+width: 80%;
+}
+.post-header{
+    display: flex;
+    width: 100%;
+}
+.encabezado{
+    display: flex;
+    width: 70%;
+    padding: 10px;
+    text-align: right;
+    color:gray;
+}
+.encabezado-left{
+    width: 10%;
+    padding: 5px;
+    text-align: left;
+}
+.encabezado-right{
+    width: 70%;
+    text-align: left;
+    font-size: small;
+}
+h4{
+    margin: 0;
+}
+.encabezado-puntos{
+    text-align: right;
+    width: 30%;
+}
+div.post{
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    color:gray;
+    }
+div.post h2{
+    padding: 10px;
+    margin: 0;
+}
+div.post p{
+    margin: 0;
+}
+
+.marcadores{
+    display: flex;
+}
+.marcador-derecha{
+text-align: right;
+width: 80%;
+}
+.marcador-izquierda{
+    text-align: left;
+    width: 20%;
+}
+
+div.container{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.likes{
+    font-size: small;
+    font-weight: 700;
+}
